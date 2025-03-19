@@ -1,0 +1,28 @@
+{
+  "name": "cjrasmussen/static-file-versioning",
+  "description": "Lightweight class that assists with versioning static asset files",
+  "version": "1.0.0",
+  "keywords": ["file versioning"],
+  "homepage": "https://cjr.dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Clark Rasmussen",
+      "homepage": "https://cjr.dev",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/cjrasmussen/StaticFileVersioning/issues",
+    "source": "https://github.com/cjrasmussen/StaticFileVersioning"
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "cjrasmussen\\StaticFileVersioning\\": "src/"
+    }
+  }
+}
