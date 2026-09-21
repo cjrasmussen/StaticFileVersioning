@@ -41,7 +41,7 @@ class FileVersion
 	 * @param mixed $value
 	 * @return $this
 	 */
-	public function set(string $key, $value): self
+	public function set(string $key, mixed $value): self
 	{
 		if ($this->config[$key] !== $value) {
 			$this->config[$key] = $value;
