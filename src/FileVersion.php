@@ -43,7 +43,7 @@ class FileVersion
 	 */
 	public function set(string $key, mixed $value): self
 	{
-		if ($this->config[$key] !== $value) {
+		if ((!array_key_exists($key, $this->config)) || ($this->config[$key] !== $value)) {
 			$this->config[$key] = $value;
 			$this->changed = true;
 		}
